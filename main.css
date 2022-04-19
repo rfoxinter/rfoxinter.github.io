@@ -1,0 +1,79 @@
+p, ul {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.home {
+    width: 25px;
+    margin-left: 5px;
+}
+
+.books{
+    width: 100px;
+    transition: transform .2s;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    vertical-align: middle;
+}
+
+@media (hover: hover) {
+    .books:hover {
+        transform: scale(1.75);
+    }
+}
+
+@media print {
+    #no_print {
+        display: none !important;
+    }
+    footer {
+        display: none !important;
+    }
+    .page-header {
+        background-color: #FFFFFFFF !important;
+        background-image: none !important;
+    }
+    header {
+        padding: none !important;
+    }
+    main {
+        margin-top: 20px !important;
+        margin-bottom: 0 !important;
+        padding-bottom: 0 !important;
+    }
+    * {
+        color: #000000FF !important;
+        line-height: 1.15 !important;
+    }
+    h1 {
+        margin-top: 0px !important;
+        margin-bottom: 5px !important;
+        font-size: 20px !important;
+    }
+    p, br, ul, li {
+        font-size: 12px !important;
+    }
+}
+
+.fake_a {
+    cursor: pointer;
+    margin-bottom: 0;
+}
+
+.poem {
+    margin-top: 0;
+    margin-bottom: 0;
+    white-space: pre;
+}
+
+#poems {
+    margin-bottom: 0;
+}
+
+.main {
+    text-align: center;
+    margin-left:  37.5px;
+    margin-right:  37.5px;
+    margin-top:  37.5px;
+    margin-bottom:  37.5px;
+}
